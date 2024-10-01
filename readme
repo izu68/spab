@@ -1,16 +1,16 @@
-				spab
+				   spab
 a quick tool to replace space intendation for tabs in your source or text files
 
 *********************************************************************************
 
-usage: ./spab [input file] [output file] [number of spaces (must be >= 4)]
+	usage: ./spab [input file] [output file] [number of spaces
 
 BUG: if you pass the same file name to input file and output file expecting the 
 original file will be rewritten, no. it deletes everything in the file. so if
 you're gonna use this set the input and output files to different stuff, for 
 example:
 
-			./spab file.c file_tabbed.c 4
+			./spab file.c file_tabbed.c
 
 *********************************************************************************
 
