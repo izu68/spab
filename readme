@@ -7,6 +7,13 @@ usage: ./spab [input file] [output file] [number of spaces (must be >= 4)]
 
 BUG: if you pass the same file name to input file and output file expecting the 
 original file will be rewritten, no. it deletes everything in the file. so if
-you're gonna use this set the input and output files to different stuff, for example:
+you're gonna use this set the input and output files to different stuff, for 
+example:
 
 			./spab file.c file_tabbed.c 4
+
+*********************************************************************************
+
+to compile, open makefile and set CC to you preferred C compiler. then run make
+and a spab binary will be generated. you can copy that anywhere or call it from
+anywhere.
