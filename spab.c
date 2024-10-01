@@ -36,20 +36,20 @@ int main(int argc, char *argv[])
 {
 	printf ( "spab [iXu] 0.01\n" );
 	if (argc != 4) 
-        {
+		{
 		printf ( "how to use: %s [input file] [output file] [number of spaces (must be >= 4)]\n", argv[0]);
 		return 1;
 	}
 
 	FILE *in = fopen ( argv[1], "r" );
 	if ( in == NULL ) 
-        {
+		{
 		perror ( "cannot open input file" );
 		return 1;
 	}
 	FILE *out = fopen ( argv[2], "w" );
 	if ( out == NULL ) 
-        {
+		{
 		perror ( "cannot open output file" );
 		fclose ( in );
 		return 1;

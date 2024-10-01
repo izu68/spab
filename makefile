@@ -1,2 +1,4 @@
+CC = 
+
 all:
-	clang -o spab spab.c
+	$(CC) -o spab spab.c
