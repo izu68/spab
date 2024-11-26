@@ -1,4 +1,6 @@
-A quick and dirty tool to replace space intendation for tab indentation in your source or text files. It's pretty simple and carelessly written, but it does the job. Please make a copy of the file you input before using this in case the program freaks out :P
+A quick and dirty tool to replace space intendation for tab indentation in your source or text files. It's pretty simple and carelessly written. I made it because I like everything to be tab indented but some people have a preference for spaces, so to make source code more readable for me in vim it does the job. 
+
+If you want to use it, please make a copy of the file you input before using this in case the program freaks out :P
 
 ## spab
 
@@ -9,7 +11,7 @@ usage: ./spab [input file] [output file] [amount of spaces to replace]
 example: ./spab file.c file_tabbed.c 4
 ```
 
-You can ommit the space amount setting, the default space amount to replace for a tab is 4 spaces. The minimum is 2 spaces.
+The minimum amount of spaces to replace is 2.
 
 ### build
 	

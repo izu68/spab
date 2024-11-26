@@ -35,7 +35,7 @@ void spab (const int spa_to_replace, FILE *in, FILE *out)
 int main(int argc, char *argv[]) 
 {
 	printf ( "spab [iXu]\n" );
-	if ( argc < 3 ) 
+	if ( argc != 4 ) 
 	{
 		printf ("this program replaces space indentation for tab indentation in text files.\n\n");
 		printf ("how to use: %s [input file] [output file] [spaces in indentation]\n", argv[0]);
